@@ -1,0 +1,68 @@
+.about {
+  position:relative;
+ 
+  @mixin atSmallMedium {
+    margin-top:4rem;
+  }
+
+  &__img {
+    width: 60%;
+    margin:0 auto;
+
+    @mixin atSmallMedium {
+      width:35%;
+      position:absolute;
+      top:25%;
+      left:-20px;
+    }
+
+    @mixin atMedium {
+      width:48%;
+      max-width:677px;
+      top:20%;
+      left:10px;
+    }
+  }
+
+  &__desc {
+    margin-top:2rem;
+
+    @mixin atSmallMedium {
+      width:75%;
+      margin-left:25%;
+    }
+
+    @mixin atMedium {
+      width:58%;
+      margin-left:42%;
+    }
+  }
+
+  &__heading {
+    font-family:"Roboto-Regular";
+    font-size:1.8rem;
+
+    @mixin atMedium{
+      font-size:2.2rem;
+      margin-bottom:3rem;
+    }
+
+    @mixin atLarge {
+      font-size:2.6875rem;
+      margin-bottom:5.25rem;
+      max-width:771px;
+    }
+ 
+  }
+
+  &__generic {
+   
+    @mixin atSmallMedium {
+      margin-left:120px;
+    }
+
+    @mixin atLarge {
+      margin-left:27%;
+    }
+  }
+}
