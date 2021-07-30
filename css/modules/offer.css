@@ -1,0 +1,48 @@
+.offer {
+  &__blocks {
+    @mixin atMedium {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    margin: 0;
+    @mixin atMedium {
+      padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+      width: 50%;
+      justify-content: flex-start;
+
+      &--border-rb {
+        border-right: 1px solid #dedcfe;
+        border-bottom: 1px solid #dedcfe;
+      }
+      &--border-b {
+        border-bottom: 1px solid #dedcfe;
+      }
+      &--border-r {
+        border-right: 1px solid #dedcfe;
+      }
+    }
+
+    &__icon {
+      width: 70px;
+      object-fit: contain;
+      @mixin atMedium {
+        height: 73px;
+      }
+    }
+
+    &__content {
+      margin: 0 auto;
+      max-width: 525px;
+    }
+  }
+}
