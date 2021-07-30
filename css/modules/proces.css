@@ -5,20 +5,24 @@
     }
     &__line {
       width: 2px;
-      height: 83px;
+      height: 163px;
       background-color: $pink;
       position: absolute;
-      bottom: -55px;
+      bottom: -95px;
       left: 33px;
+      z-index:-1;
 
       @mixin atSmallMedium {
         height: 40px;
-        bottom: 5px;
+        bottom: 20px;
       }
     }
 
     &__icon-wrapper {
-      width: 80.88px;
+      width: 88px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
 
       @mixin atSmallMedium {
         width: 132.88px;
@@ -44,11 +48,11 @@
       align-items: center;
       margin-bottom: 2rem;
       position: relative;
-      height: 190px;
+      height: 170px;
 
       @mixin atSmallMedium {
         width: calc(50% + 36.5px);
-        height: 171px;
+        height: 200px;
         align-items: flex-start;
         margin-bottom: 0;
 
@@ -81,7 +85,8 @@
     }
 
     &__desc {
-      max-width: calc(100% - 92px);
+      max-width: calc(100% - 82px);
+      margin-left:10px;
 
       @mixin atSmallMedium {
         width: calc(100% - 40px);

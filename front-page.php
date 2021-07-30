@@ -118,56 +118,55 @@ get_header();
     </section>
     <section class="process" id="process">
       <div class="process__time-line">
-        <div class="process__time-line__step process__time-line__step--1 process__time-line__right">
+        <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
             <h3 class="heading heading--small">Kontakt z klientem</h3>
             <p class="generic">To etap na którym dopracowujemy szczegóły przyszłej współpracy</p>
           </div>
-          <div class="proces__time-line__icon-wrapper">
-            <img src="/wp-content/themes/frona/images/proces--1.svg" alt="" class="process__time-line__icon">
+          <div class="process__time-line__icon-wrapper">
+            <img src="/wp-content/themes/frona/images/proces-1.svg" alt="" class="process__time-line__step__icon process__time-line__icon--margin-r">
           </div>
-        </div>
-        <div class="process__time-line__line"></div>
-        <div class="process__time-line__step process__time-line__step--2 process__time-line__left">
+          <div class="process__time-line__line"></div>
+        </div>    
+        <div class="process__time-line__step process__time-line__step--2 process__time-line__step--left">
           <div class="process__time-line__desc">
             <h3 class="heading heading--small">Research</h3>
             <p class="generic">Na tym etapie poznajemy się lepiej, badamy oczekiwania i potrzeby.</p>
           </div>
-          <div class="proces__time-line__icon-wrapper">
-            <img src="/wp-content/themes/frona/images/proces-2.svg" alt="" class="process__time-line__icon">
+          <div class="process__time-line__icon-wrapper">
+            <img src="/wp-content/themes/frona/images/proces-2.svg" alt="" class="process__time-line__step__icon">
           </div>
+          <div class="process__time-line__line"></div>
         </div>
-        <div class="process__time-line__line"></div>
-        <div class="process__time-line__step process__time-line__step--1 process__time-line__right">
+        <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Projekt(opcjonalnie)</h3>
+            <h3 class="heading heading--small">Projekt (opcjonalnie)</h3>
             <p class="generic">Jest to etap, w którym powstaje ewentualny projekt graficzny</p>
           </div>
-          <div class="proces__time-line__icon-wrapper">
-            <img src="/wp-content/themes/frona/images/proces-3.svg" alt="" class="process__time-line__icon">
+          <div class="process__time-line__icon-wrapper">
+            <img src="/wp-content/themes/frona/images/proces-3.svg" alt="" class="process__time-line__icon process__time-line__icon--margin-r">
           </div>
+          <div class="process__time-line__line"></div>
         </div>
-        <div class="process__time-line__line"></div>
-        <div class="process__time-line__step process__time-line__step--1 process__time-line__left">
+        <div class="process__time-line__step process__time-line__step--1 process__time-line__step--left">
           <div class="process__time-line__desc">
             <h3 class="heading heading--small">Wdrożenie</h3>
             <p class="generic">Na tym etapie następuje wdrożenie projektu</p>
           </div>
-          <div class="proces__time-line__icon-wrapper">
+          <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-4.svg" alt="" class="process__time-line__icon">
           </div>
-        </div>
-        <div class="process__time-line__line"></div>
-        <div class="process__time-line__step process__time-line__step--1 process__time-line__right">
+          <div class="process__time-line__line"></div>
+        </div>  
+        <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
             <h3 class="heading heading--small">Testy i implementacja</h3>
-            <p class="generic">To etap, w którym przeprowadzane są testy i wprowadzane ewentualne korekty przed przekazaniem i umieszczeniem na serwerze</p>
+            <p class="generic">To etap zakończony przekazaniem projektu i umieszczeniem na serwerze</p>
           </div>
-          <div class="proces__time-line__icon-wrapper">
-            <img src="/wp-content/themes/frona/images/proces-5.svg" alt="" class="process__time-line__icon">
+          <div class="process__time-line__icon-wrapper">
+            <img src="/wp-content/themes/frona/images/proces-5.svg" alt="" class="process__time-line__icon process__time-line__icon--margin-r">
           </div>
         </div>
-        <div class="process__time-line__line"></div>
       </div>
     </section>
     <section id="about" class="about">
