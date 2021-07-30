@@ -1,0 +1,41 @@
+.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $textNavy;
+  font-size: 20px;
+  font-family: "Epilogue-SemiBold", sans-serif;
+  letter-spacing: 0.13em;
+  transition: all 0.6s linear;
+  line-height: 1.4;
+  transition: 0.4s;
+
+  @mixin atSmallMedium {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    bottom: -50px;
+  }
+
+  &--small {
+    width:100px;
+    height:100px;
+    font-size:16px;
+  }
+
+  &:hover {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  
+}
