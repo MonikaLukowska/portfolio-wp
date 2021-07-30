@@ -117,6 +117,7 @@ get_header();
     <?php endif;?>
     </section>
     <section class="process" id="process">
+    <h2 class="site-heading site-heading--large center">Proces</h2>
       <div class="process__time-line">
         <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
@@ -170,14 +171,14 @@ get_header();
       </div>
     </section>
     <section id="about" class="about">
-      <h2 class="heading heading--large">O mnie</h2>
-      <div class="about__images">
-        <pictrue class="about__picture">
-          <source media="(min-width:500px)" srcset="/wp-content/themes/frona/images/about-group.png" loading="lazy" alt="Programistka Fronaweb">
-          <img src="/wp-content/themes/frona/images/about-single.png" loading="lazy" alt="Programistka Fronaweb">
-        </pictrue>
+      <h2 class="site-heading site-heading--large center">O mnie</h2>
+      <div class="about__img hide-md">
+        <img src="/wp-content/themes/frona/images/about-single.png" loading="lazy" alt="Programistka Fronaweb">
       </div>
-      <div class="about-desc">
+      <div class="about__img hide-sm">
+        <img src="/wp-content/themes/frona/images/about-group.png" loading="lazy" alt="Programistka Fronaweb">
+      </div>
+      <div class="about__desc">
         <h3 class="about__heading">Cześć, mam na imię Monika i jestem web developerem freelancerem z Bydgoszczy.</h3>
         <p class="about__generic generic">Tworzę strony dopasowane do oczekiwań, potrzeb i budżetów moich klientów. Początek współpracy jest więc dla mnie czasem na zbudowanie relacji opartej na efektywnej komunikacji i wzajemnym zaufaniu.</p>
         <p class="about__generic generic">Jestem perfekcjonistką i wierzę, że nigdy nie jest się wystarczająco dobrym, dlatego nie przestaję się uczyć i rozwijać. Swoje projekty realizuję z pasją i pełnym zaangażowaniem.</p>
