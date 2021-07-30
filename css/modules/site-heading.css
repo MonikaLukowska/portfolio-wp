@@ -1,0 +1,37 @@
+.site-heading {
+  &--large {
+    color: $blue;
+    font-size: 2.5375rem;
+    line-height: 1.4;
+    margin-bottom: 3rem;
+
+    @mixin atSmallMedium {
+      margin-bottom: 4rem;
+    }
+    @mixin atMedium {
+      font-size: 3.43775rem;
+    }
+
+    @mixin atLarge {
+      font-size: 4.125rem;
+    }
+  }
+
+  &--medium {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    @mixin atSmallMedium {
+      font-size: 1.875rem;
+    }
+  }
+
+  &--small {
+    font-size: 1.25rem;
+
+
+    @mixin atSmallMedium {
+      font-size: 1.4375rem
+    }
+  }
+}
