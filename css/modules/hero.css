@@ -1,6 +1,10 @@
 .hero {
   position: relative;
+  padding-top: 6rem;
 
+  @mixin atSmallMedium {
+    padding-top: 10rem;
+  }
   &__container {
     height: 100%;
   }
@@ -16,6 +20,10 @@
 
   @media (min-width: 1024px) and (orientation: horizontal) {
     max-height: 70vw;
+  }
+
+  @mixin atFull {
+    padding-top: 13rem;
   }
 
   &__content {
@@ -164,6 +172,7 @@
       top: 5%;
       right: -5%;
       transform: rotate(-10deg);
+      z-index: -1;
       img {
         object-fit: contain;
         object-position: top center;
@@ -214,7 +223,7 @@
       }
 
       @mixin atLarge {
-        right:22%;
+        right: 22%;
       }
     }
   }
