@@ -93,22 +93,30 @@ get_header();
         $full = get_sub_field('full');
     ?>
         <div class="portfolio__grid__item">
-          <div class="portfolio__grid__img-wrapper">
+          <div class="portfolio__grid__img-wrapper" style="background:<?php echo get_sub_field('bg')?>">
             <img class="portfolio__grid__img" src="<?php echo $mock['sizes']['medium_large']?>" alt="<?php echo $mock['alt']?>" loading="lazy"></img>
           </div>
           <div class="portfolio__grid__bottom">
             <div class="portfolio__grid__desc"><?php echo get_sub_field('desc')?></div>
             <button class="btn btn--small portfolio__grid__view" aria-label="Zobacz" data-src="<?php echo $mock['url']?>" data-link="<?php echo get_sub_field('link')?>">Zobacz
-              <span class="arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.325" height="17.056" viewBox="0 0 55.325 17.056">
-                  <defs>
-                    <pattern id="pattern" width="1" height="1" patternTransform="matrix(1, 0, 0, -1, 0, 34.111)" viewBox="0 0 55.325 17.056">
-                      <image preserveAspectRatio="none" width="55.325" height="17.056" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAOCAYAAABQFS4BAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAALqADAAQAAAABAAAADgAAAACwmyk6AAABLklEQVRIDc2UsU4CQRCGOSKxpbGgMDExkYLGAjmvt6E0NjS8gi9BR6NvYEd8Dwu9yoSExmjh0RBosKXg/GazbAZCc5dsbjf5b2c3uzPf/ZlslOd5LdRx3nl9hu1pPhv8HjJGIYIDfAHoBCXoB3WBXzO7UXdRWEELHIGWcYlSfqZpVvYTJDjuvsN3p0CviPfgg2yVHTAunxG/obbd+2KOpW1KgZPw0SbyOcmrkaEhelCFBD4pDA50xMWtSlRFuCgMLpTAV/2Gbk60XeIm/eOgrLvmiN5nY6TveYzn5O6je1VjSXxbynGVxHuIeSlFeraQQN9gYrbnuHeKAgUAvub4Bzq11xy0rIN8x4GOYftER6GDBQfsD30LIGOFTHuYlf0E2+O43oDxBY3p6amGlvgf1vJjGq8v0woAAAAASUVORK5CYII="/>
-                    </pattern>
-                  </defs>
-                  <rect id="right-arrow_kopia_2" data-name="right-arrow kopia 2" width="55.325" height="17.056" fill="url(#pattern)"/>
-                </svg>
-              </span>
+            <span class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36.433" height="17.064" viewBox="0 0 36.433 17.064">
+                <g id="Group_35" data-name="Group 35" transform="translate(-783 -3407.227)">
+                  <g id="Path_7" data-name="Path 7" transform="translate(783 3414)" fill="#020ca3">
+                    <path d="M 33.22978591918945 2.5 L 26.57699775695801 2.5 L 0.4999968707561493 2.5 L 0.4999968707561493 0.5 L 33.16619873046875 0.5 L 34.28131866455078 1.748761534690857 L 33.22978591918945 2.5 Z" stroke="none"/>
+                    <path d="M 0.9999961853027344 1 L 0.9999961853027344 2 L 26.57699584960938 2 L 33.06953430175781 2 L 33.53706359863281 1.665986895561218 L 32.94234848022461 1 L 0.9999961853027344 1 M -3.814697265625e-06 0 L 33.39004516601562 0 L 35.02557754516602 1.831539988517761 L 33.39004516601562 3 L 26.57699584960938 3 L -3.814697265625e-06 3 L -3.814697265625e-06 0 Z" stroke="none" fill="#020ca3"/>
+                  </g>
+                  <g id="Path_9" data-name="Path 9" transform="matrix(0.883, -0.469, 0.469, 0.883, 804.575, 3420.878)" fill="#020ca3">
+                    <path d="M 1.101491570472717 3.355393648147583 L 0.7051412463188171 1.13896918296814 L 13.56271457672119 0.5150710344314575 L 13.98150730133057 1.335362911224365 L 1.101491570472717 3.355393648147583 Z" stroke="none"/>
+                    <path d="M 12.44811153411865 1.06974196434021 L 1.297453880310059 1.610814094543457 L 1.507530212402344 2.785601377487183 L 12.44811153411865 1.06974196434021 M 13.86114406585693 4.291534423828125e-06 L 14.74051380157471 1.722434282302856 L 0.6954441070556641 3.925184488296509 L 0.1128339767456055 0.6671242713928223 L 13.86114406585693 4.291534423828125e-06 Z" stroke="none" fill="#020ca3"/>
+                  </g>
+                  <g id="Path_8" data-name="Path 8" transform="translate(807.096 3407.227) rotate(32)" fill="#020ca3">
+                    <path d="M 12.61969757080078 2.5 L 0.5000043511390686 2.5 L 0.5000043511390686 0.5222271084785461 L 13.01680755615234 1.066752076148987 L 12.61969757080078 2.5 Z" stroke="none"/>
+                    <path d="M 1.000004768371582 1.044454216957092 L 1.000004768371582 2 L 12.23940372467041 2 L 12.36714267730713 1.538964748382568 L 1.000004768371582 1.044454216957092 M 4.76837158203125e-06 0 L 13.66648387908936 0.5945401191711426 L 13.00000476837158 3 L 4.76837158203125e-06 3 L 4.76837158203125e-06 0 Z" stroke="none" fill="#020ca3"/>
+                  </g>
+                </g>
+              </svg>
+            </span>
             </button>
           </div>
         </div>
@@ -186,7 +194,19 @@ get_header();
       </div>
     </section>
   </div>
-</main> 
+</main>
+<div class="modal">
+  <div class="modal__inner">
+    <button class="modal__close" aria-label="Close">Close</button>
+    <div class="modal__nav">
+      <button class="modal__nav__prev" aria-label="Previous"><<</button>
+      <button class="modal__nav__next" aria-label="Next">>></button>
+    </div>
+    <div class="modal__image-wrapper">
+      <img class="modal__image" src="" alt="">
+    </div>
+  </div>
+</div> 
 <?php
 get_footer();
 ?>
