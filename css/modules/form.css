@@ -1,0 +1,189 @@
+.form {
+  margin-top:2rem;
+  padding:2rem;
+  background-color: #fcc020;
+
+  @mixin atSmallMedium {
+    padding: 4rem 2rem;
+  }
+
+  @mixin atMedium {
+    width:70%;
+    padding-bottom:4rem;
+    padding-top:3rem;
+  }
+
+  @mixin atLarge {
+    width:59%;
+    padding:4rem 6rem;
+  }
+
+  &__data {
+    height: 52px;
+    width:100%;
+    display:block;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 3px solid $blue;
+    padding: 12px 26px 15px 26px;
+    background-color: transparent;
+    color: $textNavy;
+    font-size: 1.1rem;
+    line-height:1.7;
+    border-radius: 0;
+
+    &:focus {
+      outline:none;
+    }
+
+    &:focus-visible {
+      outline:none;
+
+      &::placeholder {
+        display:none;
+      }
+    }
+
+
+    &::placeholder {
+      display: block;
+      font-size: 1.2rem;
+      letter-spacing:1px;
+      color: #dedcfes !important;
+    }
+
+    &--text {
+      height: 113px;
+      resize: none;
+      overflow: hidden;
+      display:flex;
+      align-items:flex-end;
+
+      &:focus {
+        outline:none;
+      }
+
+      &:focus-visible {
+        outline:none;
+      }
+
+
+      &::placeholder {
+        display: block;
+        font-size: 1.2rem;
+        letter-spacing:1px;
+        line-height:113px;
+      }
+     
+    }
+  }
+
+  input {
+    height: 52px;
+  }
+
+  .wpcf7 {
+    width:100%;
+  }
+
+  .wpcf7 label {
+    visibility:hidden;
+  }
+
+  .wpcf7-list-item {
+    margin: 2rem 0 0 0;
+    position: relative;
+  }
+  .wpcf7-list-item label {
+    display: flex;
+    align-items: center;
+  }
+  .wpcf7-list-item-label {
+
+  }
+  .wpcf7-acceptance {
+    margin-right: 10px;
+  }
+}
+.wpcf7-form-control-wrap {
+  max-width:100%;
+  display:block;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+  width: 100% !important;
+  height:100%;
+  letter-spacing:1.2px;
+  background-color:transparent;
+  border: none !important;
+  color:$yellow;
+  font-family:"Epilogue-SemiBold", sans-serif;
+  font-size:20px;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+
+/* custom checkbox styling for contact form 7 checkbox */
+span.wpcf7-list-item {
+  display: inline-block;
+  margin: 0;
+}
+.wpcf7 .wpcf7-list-item {
+  display: inline-block;
+}
+.wpcf7-acceptance label {
+  position: relative;
+  display:block;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 28px;
+  visibility:visible !important;
+  font-size:10px;
+  color:#33376A;
+}
+.wpcf7-acceptance input[type="checkbox"] {
+  /*position: relative;*/
+ position: absolute;
+  visibility: hidden;
+  width: 24px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.wpcf7-acceptance input[type="checkbox"] + span:before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 0;
+  top: 5px;
+  left: 0px;
+  width: 24px;
+  height: 20px;
+  margin-right: 10px;
+  background:#fff;
+
+}
+.wpcf7-acceptance input[type="checkbox"] + span:after {
+  display: block;
+  position: absolute;
+  content: "\2713";
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+.wpcf7-acceptance input[type="checkbox"]:checked + span:before {
+  background: transparent;
+}
+.wpcf7-acceptance input[type="checkbox"]:checked + span:after {
+  visibility: visible;
+}
+.wpcf7-list-item-label {
+  margin-left: 40px;
+  display: inline-block;
+}

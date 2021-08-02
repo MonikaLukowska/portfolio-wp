@@ -7,9 +7,10 @@
 
     @mixin atSmallMedium {
       margin-bottom: 4rem;
+      font-size: 3.43775rem;
     }
     @mixin atMedium {
-      font-size: 3.43775rem;
+      
     }
 
     @mixin atLarge {

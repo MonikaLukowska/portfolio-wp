@@ -1,0 +1,70 @@
+.footer {
+
+
+  &__row {
+    @mixin atMedium {
+      display:flex;
+    }
+  }
+
+    &__contact {
+      padding:2rem;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+
+      @mixin atMedium {
+        align-items:flex-start;
+        justify-content: flex-end;
+      }
+
+      &__logo-wrapper{
+        width:100px;
+        margin-bottom:2.5rem;
+
+        @mixin atSmallMedium {
+          width:120px;
+          margin-bottom:3.5rem;
+        }
+      }
+
+      &__link {
+        display:block;
+        height:100%;
+        display:flex;
+        align-items:center;
+      }
+
+      &__details {
+        margin-bottom:2rem;
+
+        &__row {
+          margin-bottom:0.2rem;
+        }
+
+        &__tel {
+          .footer__icon {
+            margin-right:24px;
+          }
+        }
+      }
+    }
+
+    &__icon {
+      margin-right: 15px;
+      display:flex;
+      align-items:center;
+    }
+
+    &__copyrights {
+
+      @mixin atSmallMedium {
+        margin-top:4rem;
+      }
+
+      @mixin atMedium {
+        margin-top:75%;
+      }
+    }
+}

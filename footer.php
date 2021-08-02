@@ -2,14 +2,15 @@
   <div class="container container--wide">
     <div class="footer__row">
       <div class="footer__form form">
+      <h2 class="site-heading site-heading--large">Pomówmy<br>o Twoim projekcie</h2>
         <?php echo do_shortcode('[contact-form-7 id="40" title="Contact form 1"]')?>
       </div>
-      <div class="footer__contact">
+      <div id="contact" class="footer__contact">
         <div class="footer__contact__logo-wrapper">
           <img class="footer__contact__logo" src="/wp-content/themes/frona/images/logo.svg">
         </div>
         <div class="footer__contact__details">
-          <p class="footer__contact__details__tel">
+          <p class="footer__contact__details__tel footer__contact__details__row">
             <a class="footer__contact__link" href="tel:0048734164767">
               <span role="img" aria-label="telephone" class="footer__icon icon icon--tel">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="26" viewBox="0 0 14 26">
@@ -18,7 +19,7 @@
               </span>+48 734 164 767
             </a>
           </p>
-          <p class="footer__contact__details__email">
+          <p class="footer__contact__details__email footer__contact__details__row">
             <a class="footer__contact__link" href="mailto:kontakt@fronaweb.pl">
               <span role="img" aria-label="email" class="footer__icon icon icon--mail">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="18" viewBox="0 0 24 18">
@@ -28,6 +29,7 @@
             </a>
           </p>
         </div>
+        <div class="footer__copyrights">&copy Fronaweb.pl</div> 
       </div>
     </div>
   </div>
