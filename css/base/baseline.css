@@ -1,0 +1,201 @@
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmallMedium {
+  @media (min-width: 767px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 1024px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1366px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atFull {
+  @media (min-width: 1920px) {
+    @mixin-content;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+main {
+  flex: 1 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: $textNavy;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.66666667;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: 0.0005em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 1.5rem;
+  font-family: "Epilogue-SemiBold", sans-serif;
+  color: $textNavy;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $textNavy;
+  overflow-wrap: break-word;
+}
+
+a:hover {
+  color: $blue;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  @mixin atMedium {
+    margin: 0 0 2rem 0;
+  }
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+section {
+  padding: 2rem 0;
+
+  @mixin atMedium {
+    padding: 3.5rem 0;
+  }
+
+  @mixin atLarge {
+    padding: 4.5rem 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+address {
+  font-style: normal;
+}
+
+/* FONT FACE */
+@font-face {
+  font-family: "Epilogue-SemiBold";
+  /* Open Type Font */
+  src: local("Epilogue"), local("Epilogue"),
+    url("/wp-content/themes/frona/fonts/Epilogue-SemiBold.ttf")
+      format("opentype"),
+    /* Modern Browsers */
+      url("/wp-content/themes/frona/fonts/Epilogue-SemiBold.woff")
+      format("woff"),
+    url("/wp-content/themes/frona/fonts/Epilogue-SemiBold.woff2")
+      format("woff2");
+
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Epilogue-Bold";
+  /* Open Type Font */
+  src: local("Epilogue-Bold"), local("Epilogue-Bold"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Bold.ttf") format("opentype"),
+    /* Modern Browsers */
+      url("/wp-content/themes/frona/fonts/Epilogue-Bold.woff") format("woff"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue-Light";
+  /* Open Type Font */
+  src: local("Epilogue-Light"), local("Epilogue-Light"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Light.ttf") format("opentype"),
+    /* Modern Browsers */
+      url("/wp-content/themes/frona/fonts/Epilogue-Light.woff") format("woff"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Light.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Epilogue-Regular";
+  /* Open Type Font */
+  src: local("Epilogue-Regular"), local("Epilogue-Regular"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Regular.ttf") format("opentype"),
+    /* Modern Browsers */
+      url("/wp-content/themes/frona/fonts/Epilogue-Regular.woff") format("woff"),
+    url("/wp-content/themes/frona/fonts/Epilogue-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"), local("Roboto-Regular"),
+    url("/wp-content/themes/frona/fonts/Roboto-Regular.ttf") format("opentype"),
+    /* Modern Browsers */
+      url("/wp-content/themes/frona/fonts/Roboto-Regular.woff") format("woff"),
+    url("/wp-content/themes/frona/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

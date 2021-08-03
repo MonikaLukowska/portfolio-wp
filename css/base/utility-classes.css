@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  @mixin atSmallMedium {
+    padding: 0 2.5rem;
+  }
+
+  @mixin atFull {
+    padding: 0;
+    max-width: 1460px;
+  }
+
+  &--wide {
+    max-width: 1750px;
+    padding: 0 1rem;
+
+    @mixin atSmallMedium {
+      padding: 0 2.5rem;
+    }
+
+    @mixin atFull {
+      padding: 0;
+      max-width: 1798px;
+    }
+  }
+}
+
+.pink {
+  color: $pink;
+}
+
+.bold {
+  font-family: "Epilogue-Bold", sans-serif;
+}
+.center {
+  text-align: center;
+}
+
+.hide-md {
+  @mixin atSmallMedium {
+    display: none;
+  }
+}
+
+.hide-lg {
+  @mixin atLarge {
+    display:none;
+  }
+}
+
+.hide-sm {
+  display: none;
+  @mixin atSmallMedium {
+    display: block;
+  }
+}

@@ -85,12 +85,14 @@ get_header();
     <section id="work" class="portfolio">
       <h2 class="site-heading site-heading--large center">Portfolio</h2>
     <?php
+      $current = 0;
       if(have_rows('portfolio')):?>
       <div class="portfolio__grid">
         <?php
         while(have_rows('portfolio')): the_row();
         $mock = get_sub_field('image');
         $full = get_sub_field('full');
+        $current++;
     ?>
         <div class="portfolio__grid__item">
           <div class="portfolio__grid__img-wrapper" style="background:<?php echo get_sub_field('bg')?>">
@@ -98,7 +100,7 @@ get_header();
           </div>
           <div class="portfolio__grid__bottom">
             <div class="portfolio__grid__desc"><?php echo get_sub_field('desc')?></div>
-            <button class="btn btn--small portfolio__grid__view" aria-label="Zobacz" data-src="<?php echo $mock['url']?>" data-link="<?php echo get_sub_field('link')?>">Zobacz
+            <button class="btn btn--small portfolio__grid__view" aria-label="Zobacz" data-src="<?php echo $full['url']?>" data-link="<?php echo get_sub_field('link')?>" data-currentNo="<?php echo $current?>">Zobacz
             <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="36.433" height="17.064" viewBox="0 0 36.433 17.064">
                 <g id="Group_35" data-name="Group 35" transform="translate(-783 -3407.227)">
@@ -196,15 +198,40 @@ get_header();
   </div>
 </main>
 <div class="modal">
+<div class="modal__blob"><img src="/wp-content/themes/frona/images/blob2.png" alt=""></div>
   <div class="modal__inner">
-    <button class="modal__close" aria-label="Close">Close</button>
+    <button class="modal__close" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="43.39" height="34.084" viewBox="0 0 43.39 34.084">
+        <g id="Group_38" data-name="Group 38" transform="translate(-1562.305 -7267.133)">
+          <g id="Rectangle_34" data-name="Rectangle 34" transform="matrix(0.799, -0.602, 0.602, 0.799, 1562.305, 7297.224)" fill="#fcc020" stroke="#fcc020" stroke-width="1">
+            <rect width="50" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="49" height="4" rx="2" fill="none"/>
+          </g>
+          <g id="Rectangle_35" data-name="Rectangle 35" transform="matrix(0.809, 0.588, -0.588, 0.809, 1565.244, 7267.783)" fill="#fcc020" stroke="#fcc020" stroke-width="1">
+            <rect width="50" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="49" height="4" rx="2" fill="none"/>
+          </g>
+        </g>
+      </svg>
+    </button>
     <div class="modal__nav">
-      <button class="modal__nav__prev" aria-label="Previous"><<</button>
-      <button class="modal__nav__next" aria-label="Next">>></button>
+      <button class="modal__nav__prev" aria-label="Previous">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29.432" height="25.502" viewBox="0 0 29.432 25.502">
+          <path id="Polygon_1" data-name="Polygon 1" d="M12.5,0,25,29H0Z" transform="translate(0.436 25.502) rotate(-91)" fill="#fcc020"/>
+        </svg>
+      </button>
+      <button class="modal__nav__next" aria-label="Next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="25" viewBox="0 0 29 25">
+          <path id="Polygon_2" data-name="Polygon 2" d="M12.5,0,25,29H0Z" transform="translate(29) rotate(90)" fill="#fcc020"/>
+        </svg>
+      </button>
     </div>
-    <div class="modal__image-wrapper">
+    
+    <figure class="modal__image-wrapper">
       <img class="modal__image" src="" alt="">
-    </div>
+      <figcaption class="modal__figcaption"></figcaption>
+    </figure>
+
   </div>
 </div> 
 <?php
