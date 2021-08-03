@@ -10,7 +10,7 @@
       position: absolute;
       bottom: -95px;
       left: 33px;
-      z-index:-1;
+      z-index: -1;
 
       @mixin atSmallMedium {
         height: 40px;
@@ -20,9 +20,9 @@
 
     &__icon-wrapper {
       width: 88px;
-      display:flex;
-      justify-content:center;
-      align-items:center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       @mixin atSmallMedium {
         width: 132.88px;
@@ -44,7 +44,7 @@
     &__step {
       display: flex;
       flex-direction: row-reverse;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
       margin-bottom: 2rem;
       position: relative;
@@ -86,7 +86,7 @@
 
     &__desc {
       max-width: calc(100% - 82px);
-      margin-left:10px;
+      margin-left: 10px;
 
       @mixin atSmallMedium {
         width: calc(100% - 40px);
