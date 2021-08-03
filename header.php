@@ -17,14 +17,14 @@
           <div class="header__navCol">
             <nav class="nav">
               <ul class="nav__list">
-                <li class="nav__list__item"><a class="nav__list__link" href="services">Oferta</a></li>
-                <li class="nav__list__item"><a class="nav__list__link" href="work">Portfolio</a></li>
-                <li class="nav__list__item"><a class="nav__list__link" href="process">Proces</a></li>
-                <li class="nav__list__item"><a class="nav__list__link" href="about">O mnie</a></li>
-                <li class="nav__list__item"><a class="nav__list__link" href="contact">Kontakt</a></li>
+                <li class="nav__list__item"><a class="nav__list__link" href="#services">Oferta</a></li>
+                <li class="nav__list__item"><a class="nav__list__link" href="#work">Portfolio</a></li>
+                <li class="nav__list__item"><a class="nav__list__link" href="#process">Proces</a></li>
+                <li class="nav__list__item"><a class="nav__list__link" href="#about">O mnie</a></li>
+                <li class="nav__list__item"><a class="nav__list__link" href="#contact">Kontakt</a></li>
               </ul>
             </nav>
-            <button class="header__burger hide-lg" aria-label="Open Menu">
+            <button class="header__burger hide-lg" aria-label="Toggle Menu">
               <div class="header__burger__bar header__burger__bar--top"></div>
               <div class="header__burger__bar header__burger__bar--middle"></div>
               <div class="header__burger__bar header__burger__bar--bottom"></div>
