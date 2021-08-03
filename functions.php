@@ -7,8 +7,8 @@ function frona_files() {
     wp_enqueue_script('main-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
   } else {
     wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.8120c0fc854589b08ec7.js'), NULL, '1.0', true);
-    wp_enqueue_script('main-js', get_theme_file_uri('/bundled-assets/scripts.265cff9f0e782e0347cd.js'), NULL, '1.0', true);
-    wp_enqueue_style('drim-robotics-main-styles', get_theme_file_uri('/bundled-assets/styles.265cff9f0e782e0347cd.css'));
+    wp_enqueue_script('main-js', get_theme_file_uri('/bundled-assets/scripts.cca9e05cc7e5793d837e.js'), NULL, '1.0', true);
+    wp_enqueue_style('drim-robotics-main-styles', get_theme_file_uri('/bundled-assets/styles.cca9e05cc7e5793d837e.css'));
   }
   
 }
