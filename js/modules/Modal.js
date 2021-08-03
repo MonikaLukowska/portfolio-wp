@@ -13,10 +13,13 @@ class Modal{
   }
 
   bindEvent() {
-    this.portfolioBtns.forEach(btn => {
-      btn.addEventListener('click', () => { this.openModal(btn) })
-    })
-    this.close.addEventListener('click', () => { this.closeModal() })
+    if(this.portfolioBtns.length > 0) {
+      this.portfolioBtns.forEach(btn => {
+        btn.addEventListener('click', () => { this.openModal(btn) })
+      })
+      this.close.addEventListener('click', () => { this.closeModal() })
+    }
+    
   }
 
   openModal(btn) {
