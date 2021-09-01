@@ -12,13 +12,13 @@ get_header();
         <div class="hero__col hero__content">
           <h2 class="hero__content__heading heading site-heading"><span class="bold">Strona www</span>dla Twojego biznesu<span class="pink">.</span></h2>
           <ul class="hero__content__features">
-            <li class="hero__content__features__item hero__content__features__item--first">Funkcjonalna</li>
-            <li class="hero__content__features__item hero__content__features__item--second">Responsywna</li>
-            <li class="hero__content__features__item hero__content__features__item--third">Optymalna</li>
-            <li class="hero__content__features__item hero__content__features__item--fourth">Nowoczesna</li>
-            <li class="hero__content__features__item hero__content__features__item--fifth">Atrakcyjna</li>
+            <li class="hero__content__features__item hero__content__features__item--first"><svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hero__content__features__circle"><circle class="circle" fill="none" cx="38.68" cy="38.68" r="20" stroke="#F36361" stroke-width="1" stroke-dasharray="360" stroke-linecap="round" stroke-dashoffset="360"/></svg>Funkcjonalna</li>
+            <li class="hero__content__features__item hero__content__features__item--second"><svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hero__content__features__circle"><circle class="circle" fill="none" cx="38.68" cy="38.68" r="20" stroke="#F36361" stroke-width="1" stroke-dasharray="360" stroke-linecap="round" stroke-dashoffset="360"/></svg>Responsywna</li>
+            <li class="hero__content__features__item hero__content__features__item--third"><svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hero__content__features__circle"><circle class="circle" fill="none" cx="38.68" cy="38.68" r="20" stroke="#F36361" stroke-width="1" stroke-dasharray="360" stroke-linecap="round" stroke-dashoffset="360"/></svg>Optymalna</li>
+            <li class="hero__content__features__item hero__content__features__item--fourth"><svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hero__content__features__circle"><circle class="circle" fill="none" cx="38.68" cy="38.68" r="20" stroke="#F36361" stroke-width="1" stroke-dasharray="360" stroke-linecap="round" stroke-dashoffset="360"/></svg>Nowoczesna</li>
+            <li class="hero__content__features__item hero__content__features__item--fifth"><svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="hero__content__features__circle"><circle class="circle" fill="none" cx="38.68" cy="38.68" r="20" stroke="#F36361" stroke-width="1" stroke-dasharray="360" stroke-linecap="round" stroke-dashoffset="360"/></svg>Atrakcyjna</li>
           </ul>
-          <button class="btn" aria-label="Go to form">Wycena
+          <a class="btn hero__content__btn" href="#contact" aria-label="Go to form">Wycena
           <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="36.433" height="17.064" viewBox="0 0 36.433 17.064">
                 <g id="Group_35" data-name="Group 35" transform="translate(-783 -3407.227)">
@@ -37,10 +37,10 @@ get_header();
                 </g>
               </svg>
             </span>
-          </button>
+          </a>
         </div>
         <div class="hero__decorators">
-          <div class="hero__decorators__blob"><img src="/wp-content/themes/frona/images/blob.png" alt=""></div>
+          <div class="hero__decorators__blob"><svg class="hero__decorators__svg" viewBox="0 0 1000 1000"><path class="hero__decorators__path"></path></svg></div>
           <div class="hero__decorators__mac">
             <img src="/wp-content/themes/frona/images/mac.png" alt="" class="hero__decorators__mac__img">
           </div>
@@ -50,40 +50,40 @@ get_header();
   </section>
   <div class="container">
     <section id="services" class="offer">
-      <h2 class="site-heading site-heading--large center">Oferta</h2>
+      <h2 class="site-heading site-heading--large center fade">Oferta</h2>
       <ul class="offer__blocks">
         <li class="offer__block offer__block--border-rb">
           <div class="offer__block__icon-container">
             <img src="/wp-content/themes/frona/images/design.svg" alt=""  loading="lazy" class="offer__block__icon offer__block__icon--design">
           </div>
-          <h3 class="site-heading site-heading--medium">Web design</h3>
-          <p class="offer__block__content generic">Tworzę nowoczesne i atrakcyjne wizualnie strony i sklepy www. Dzięki współpracy z doświadczonymi grafikami i UX/UI designerami dbam o wygląd i funkcjonalności dostosowane do wygody i intuicji uzytkowników.</p>
+          <h3 class="site-heading site-heading--medium fade">Web design</h3>
+          <p class="offer__block__content generic fade">Tworzę nowoczesne i atrakcyjne wizualnie strony i sklepy www. Dzięki współpracy z doświadczonymi grafikami i UX/UI designerami dbam o wygląd i funkcjonalności dostosowane do wygody i intuicji uzytkowników.</p>
         </li>
         <li class="offer__block offer__block--border-b">
           <div class="offer__block__icon-container">
             <img src="/wp-content/themes/frona/images/wp.svg" alt="" loading="lazy" class="offer__block__icon offer__block__icon--wp">
           </div>
-          <h3 class="site-heading site-heading--medium">CMS Wordpress</h3>
-          <p class="offer__block__content generic">Klientom oczekującym możliwości samodzielnej edycji treści proponuję strony bazujące na CMS Wordpress, z intuicyjnym panelem administracyjnym. W zaleności od potrzeb i budżetu klienta oferuję szablon customowy lub opieram się na gotowym motywie.</p>
+          <h3 class="site-heading site-heading--medium fade">CMS Wordpress</h3>
+          <p class="offer__block__content generic fade">Klientom oczekującym możliwości samodzielnej edycji treści proponuję strony bazujące na CMS Wordpress, z intuicyjnym panelem administracyjnym. W zaleności od potrzeb i budżetu klienta oferuję szablon customowy lub opieram się na gotowym motywie.</p>
         </li>
         <li class="offer__block offer__block--border-r">
           <div class="offer__block__icon-container">
             <img src="/wp-content/themes/frona/images/dev.svg" alt="" loading="lazy" class="offer__block__icon offer__block__icon--dev">
           </div>
-          <h3 class="site-heading site-heading--medium">Web development</h3>
-          <p class="offer__block__content generic">Masz już projekt przygotowany przez grafika i szukasz programisty, który Ci go zakoduje? Znalazłeś! Zamienię Twój projekt na czysty i przejrzysty kod, z dbałością o dobre praktyki SEO i czybkość ładowania.</p>
+          <h3 class="site-heading site-heading--medium fade">Web development</h3>
+          <p class="offer__block__content generic fade">Masz już projekt przygotowany przez grafika i szukasz programisty, który Ci go zakoduje? Znalazłeś! Zamienię Twój projekt na czysty i przejrzysty kod, z dbałością o dobre praktyki SEO i czybkość ładowania.</p>
         </li>
         <li class="offer__block">
           <div class="offer__block__icon-container">
             <img src="/wp-content/themes/frona/images/admin.svg" alt="" loading="lazy"  class="offer__block__icon offer__block__icon--admin">
           </div>
-          <h3 class="site-heading site-heading--medium">Administracja</h3>
-          <p class="offer__block__content generic">Proponuję Ci stałą opiekę nad stroną, w tym wszelkie aktualizacje, backup i wprowadzanie zmian, a Ty zaoszczędzony czas możesz przeznaczyć na prowadzenie biznesu.</p>
+          <h3 class="site-heading site-heading--medium fade">Administracja</h3>
+          <p class="offer__block__content generic fade">Proponuję Ci stałą opiekę nad stroną, w tym wszelkie aktualizacje, backup i wprowadzanie zmian, a Ty zaoszczędzony czas możesz przeznaczyć na prowadzenie biznesu.</p>
         </li>
       </ul>
     </section>
     <section id="work" class="portfolio">
-      <h2 class="site-heading site-heading--large center">Portfolio</h2>
+      <h2 class="site-heading site-heading--large center fade">Portfolio</h2>
     <?php
       $current = 0;
       if(have_rows('portfolio')):?>
@@ -99,7 +99,7 @@ get_header();
             <img class="portfolio__grid__img" src="<?php echo $mock['sizes']['medium_large']?>" alt="<?php echo $mock['alt']?>" loading="lazy"></img>
           </div>
           <div class="portfolio__grid__bottom">
-            <div class="portfolio__grid__desc"><?php echo get_sub_field('desc')?></div>
+            <div class="portfolio__grid__desc fade"><?php echo get_sub_field('desc')?></div>
             <button class="btn btn--small portfolio__grid__view" aria-label="Zobacz" data-src="<?php echo $full['url']?>" data-link="<?php echo get_sub_field('link')?>" data-currentNo="<?php echo $current?>">Zobacz
             <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="36.433" height="17.064" viewBox="0 0 36.433 17.064">
@@ -127,52 +127,52 @@ get_header();
     <?php endif;?>
     </section>
     <section class="process" id="process">
-    <h2 class="site-heading site-heading--large center">Proces</h2>
+    <h2 class="site-heading site-heading--large center fade">Proces</h2>
       <div class="process__time-line">
         <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Kontakt z klientem</h3>
-            <p class="generic">To etap na którym dopracowujemy szczegóły przyszłej współpracy</p>
+            <h3 class="heading heading--small fade">Kontakt z klientem</h3>
+            <p class="generic fade">To etap na którym dopracowujemy szczegóły przyszłej współpracy</p>
           </div>
           <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-1.svg" alt="" class="process__time-line__step__icon process__time-line__icon--margin-r">
           </div>
-          <div class="process__time-line__line"></div>
+          <div class="process__time-line__line"><div class="line"></div></div>
         </div>    
         <div class="process__time-line__step process__time-line__step--2 process__time-line__step--left">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Research</h3>
-            <p class="generic">Na tym etapie poznajemy się lepiej, badamy oczekiwania i potrzeby.</p>
+            <h3 class="heading heading--small fade">Research</h3>
+            <p class="generic fade">Na tym etapie poznajemy się lepiej, badamy oczekiwania i potrzeby.</p>
           </div>
           <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-2.svg" alt="" class="process__time-line__step__icon">
           </div>
-          <div class="process__time-line__line"></div>
+          <div class="process__time-line__line"><div class="line"></div></div>
         </div>
         <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Projekt (opcjonalnie)</h3>
-            <p class="generic">Jest to etap, w którym powstaje ewentualny projekt graficzny</p>
+            <h3 class="heading heading--small fade">Projekt (opcjonalnie)</h3>
+            <p class="generic fade">Jest to etap, w którym powstaje ewentualny projekt graficzny</p>
           </div>
           <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-3.svg" alt="" class="process__time-line__icon process__time-line__icon--margin-r">
           </div>
-          <div class="process__time-line__line"></div>
+          <div class="process__time-line__line"><div class="line"></div></div>
         </div>
         <div class="process__time-line__step process__time-line__step--1 process__time-line__step--left">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Wdrożenie</h3>
-            <p class="generic">Na tym etapie następuje wdrożenie projektu</p>
+            <h3 class="heading heading--small fade">Wdrożenie</h3>
+            <p class="generic fade">Na tym etapie następuje wdrożenie projektu</p>
           </div>
           <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-4.svg" alt="" class="process__time-line__icon">
           </div>
-          <div class="process__time-line__line"></div>
+          <div class="process__time-line__line"><div class="line"></div></div>
         </div>  
         <div class="process__time-line__step process__time-line__step--1 process__time-line__step--right">
           <div class="process__time-line__desc">
-            <h3 class="heading heading--small">Testy i implementacja</h3>
-            <p class="generic">To etap zakończony przekazaniem projektu i umieszczeniem na serwerze</p>
+            <h3 class="heading heading--small fade">Testy i implementacja</h3>
+            <p class="generic fade">To etap zakończony przekazaniem projektu i umieszczeniem na serwerze</p>
           </div>
           <div class="process__time-line__icon-wrapper">
             <img src="/wp-content/themes/frona/images/proces-5.svg" alt="" class="process__time-line__icon process__time-line__icon--margin-r">
@@ -181,7 +181,7 @@ get_header();
       </div>
     </section>
     <section id="about" class="about">
-      <h2 class="site-heading site-heading--large center">O mnie</h2>
+      <h2 class="site-heading site-heading--large center fade">O mnie</h2>
       <div class="about__img hide-md">
         <img src="/wp-content/themes/frona/images/about-single.png" loading="lazy" alt="Programistka Fronaweb">
       </div>
@@ -189,19 +189,18 @@ get_header();
         <img src="/wp-content/themes/frona/images/about-group.png" loading="lazy" alt="Programistka Fronaweb">
       </div>
       <div class="about__desc">
-        <h3 class="about__heading">Cześć, mam na imię Monika i jestem web developerem freelancerem z Bydgoszczy.</h3>
-        <p class="about__generic generic">Tworzę strony dopasowane do oczekiwań, potrzeb i budżetów moich klientów. Początek współpracy jest więc dla mnie czasem na zbudowanie relacji opartej na efektywnej komunikacji i wzajemnym zaufaniu.</p>
-        <p class="about__generic generic">Jestem perfekcjonistką i wierzę, że nigdy nie jest się wystarczająco dobrym, dlatego nie przestaję się uczyć i rozwijać. Swoje projekty realizuję z pasją i pełnym zaangażowaniem.</p>
-        <p class="about__generic generic">Jeśli szukasz kogoś, kto wykona dla Ciebie stronę w uzgodnionym terminie, w uczciwej cenie, biorąc pod uwagę Twoje wyobrażenia i przy okazji włoży w to serce, to właśnie znalazłeś. Napisz do mnie lub zadzwoń - wspólnie stworzymy Twój pozytywny wizerunek w sieci.</p>
+        <h3 class="about__heading fade">Cześć, mam na imię Monika i jestem web developerem freelancerem z Bydgoszczy.</h3>
+        <p class="about__generic generic fade">Tworzę strony dopasowane do oczekiwań, potrzeb i budżetów moich klientów. Początek współpracy jest więc dla mnie czasem na zbudowanie relacji opartej na efektywnej komunikacji i wzajemnym zaufaniu.</p>
+        <p class="about__generic generic fade">Jestem perfekcjonistką i wierzę, że nigdy nie jest się wystarczająco dobrym, dlatego nie przestaję się uczyć i rozwijać. Swoje projekty realizuję z pasją i pełnym zaangażowaniem.</p>
+        <p class="about__generic generic fade">Jeśli szukasz kogoś, kto wykona dla Ciebie stronę w uzgodnionym terminie, w uczciwej cenie, biorąc pod uwagę Twoje wyobrażenia i przy okazji włoży w to serce, to właśnie znalazłeś. Napisz do mnie lub zadzwoń - wspólnie stworzymy Twój pozytywny wizerunek w sieci.</p>
       </div>
     </section>
   </div>
 </main>
 <div class="modal">
-<div class="modal__blob"><img src="/wp-content/themes/frona/images/blob2.png" alt=""></div>
   <div class="modal__inner">
     <button class="modal__close" aria-label="Close">
-      <svg xmlns="http://www.w3.org/2000/svg" width="43.39" height="34.084" viewBox="0 0 43.39 34.084">
+      <svg xmlns="http://www.w3.org/2000/svg" width="33.39" height="34.084" viewBox="0 0 43.39 34.084">
         <g id="Group_38" data-name="Group 38" transform="translate(-1562.305 -7267.133)">
           <g id="Rectangle_34" data-name="Rectangle 34" transform="matrix(0.799, -0.602, 0.602, 0.799, 1562.305, 7297.224)" fill="#fcc020" stroke="#fcc020" stroke-width="1">
             <rect width="50" height="5" rx="2.5" stroke="none"/>
@@ -214,6 +213,7 @@ get_header();
         </g>
       </svg>
     </button>
+    <!--
     <div class="modal__nav">
       <button class="modal__nav__prev" aria-label="Previous">
         <svg xmlns="http://www.w3.org/2000/svg" width="29.432" height="25.502" viewBox="0 0 29.432 25.502">
@@ -226,7 +226,7 @@ get_header();
         </svg>
       </button>
     </div>
-    
+      -->
     <figure class="modal__image-wrapper">
       <img class="modal__image" src="" alt="">
       <figcaption class="modal__figcaption"></figcaption>
