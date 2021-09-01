@@ -6,7 +6,12 @@
   top: 110%;
   left: 0;
   opacity: 0;
-  background: rgba(25, 28, 64, 0.99);
+  background: rgb(222, 220, 254);
+  background: linear-gradient(
+    121deg,
+    rgba(116, 146, 181, 0.9136029411764706) 0%,
+    rgba(116, 146, 181, 0.8519782913165266) 100%
+  );
   color: $textNavy;
   z-index: 99;
   overflow-y: scroll;
@@ -40,6 +45,7 @@
     border-radius: 30px;
     max-width: 80vw;
     margin: 4rem auto 0;
+    background-color: #fff;
 
     @mixin atSmallMedium {
       max-width: 600px;

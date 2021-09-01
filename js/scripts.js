@@ -4,6 +4,8 @@ import StickyHeader from './modules/StickyHeader'
 import MobileMenu from "./modules/MobileMenu";
 import Modal from "./modules/Modal";
 import SmoothScroll from "./modules/SmoothScroll";
+import Fade from "./modules/Fade";
+import FadeOnScroll from "./modules/FadeOnScroll";
 
 
 
@@ -18,12 +20,12 @@ const APP = window.APP || {}
 const initApp = () => {
   window.APP = APP
 
-  //APP.Layout = new Layout()
- 
   new Modal
   new MobileMenu
   new SmoothScroll
   new StickyHeader
+  new Fade
+  new FadeOnScroll
 }
 
 

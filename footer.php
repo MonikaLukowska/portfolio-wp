@@ -7,7 +7,7 @@
       </div>
       <div id="contact" class="footer__contact">
         <div class="footer__contact__logo-wrapper">
-          <img class="footer__contact__logo" src="/wp-content/themes/frona/images/logo.svg">
+          <img class="footer__contact__logo" src="/wp-content/themes/frona/images/logo.svg" alt="Fronaweb.pl">
         </div>
         <div class="footer__contact__details">
           <p class="footer__contact__details__tel footer__contact__details__row">

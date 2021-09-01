@@ -26,7 +26,7 @@
     width: 165px;
     height: 165px;
     position: absolute;
-    bottom: -50px;
+    bottom: -20px;
   }
   & * {
     position: relative;
